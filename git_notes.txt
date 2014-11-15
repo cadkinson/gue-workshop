@@ -1,0 +1,7 @@
+/// Head refers to the active file/checkout
+/// the "touch" prompt creates a file
+/// checkout makes active whatever is checked out???
+/// WHAT THE HECK IS A BRANCH???
+/// when you checkout a file it becomes the active branch
+/// git status to figure out where you are
+/// git checkout to switch the active branch
