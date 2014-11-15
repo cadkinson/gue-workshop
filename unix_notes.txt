@@ -191,3 +191,6 @@
   192  history > moving_around.txt
   /// redirection operator in action, CRAZY!!
   /// sent the contents of the history prompt return and translated it into a filename that is created with the title typed to the left of the (>)
+  /// .git is where the party is, it is the special sauce
+  /// all files preceded with a (.) are hidden files in Linux, you cannot see them unless you specifically ask for them to be shown
+  /// when you initialize git in a directory, it then becomes a repository
