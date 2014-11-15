@@ -1,0 +1,193 @@
+    
+   10  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   /// googled solution and had to paste the 'subl' file in a particular folder to achieve the desired command prompt
+   11  subl
+   /// success in opening Sublime Text with a command prompt!
+   12  clear
+   /// clears the terminal window to the top to clear clutter
+   24  git clone
+   25  git clone https://github.com/cadkinson/sea-w21-git.git
+   /// successfully cloned repo to local file- *no idea what I'm doing!!!
+   29  git branch <funny_image>
+   30  git checkout -b [funny_image]
+   31  git checkout -t origin/funny_image
+   32  git config --global user.name "cadkinson"
+   33  git config --global user.email "cwadkinson@gmail.com"
+   34  https://github.com/cadkinson/sea-w21-git.git
+   35  git checkout -t origin/cadkinson:funny_image
+   36  git checkout -b funny_image
+   /// Unsuccessful attempts to 'CHECKOUT' a repo, *NO IDEA
+   37  clear
+   38  pwd
+   /// 'print working directory' or a better fitting definition seems to be 'present (or current) working directory'
+   39  cd pwd
+   40  pwd
+   41  cd /
+   /// change directory to root (/)
+   42  pwd
+   43  ls
+   44  ls -t
+   /// list in order of time modified
+   45  ls
+   46  ls -l
+   /// list in long format
+   47  ls -lt
+   48  ls -r
+   /// list in reverse time modified
+   49  ls -rt
+   50  ls -lrt
+   51  man ls
+   /// manual for list displayed
+   52  man ls
+   53  man ls
+   54  ls -h
+   55  ls
+   56  ls -l -h
+   57  man -ls
+   58  man -lsls
+   59  q
+   60  ls
+   61  ls -t
+   62  ls -r
+   63  man -ls
+   64  ls man
+   65  man -ls
+   66  ls
+   67  ls -man
+   68  ls
+   69  man
+   70  man ls
+   71  ls -hl
+   72  ls -l
+   73  ls -h
+   74  ls
+   75  man ls
+   76  ls -i
+   77  man ls
+   78  ls -d
+   79  ls
+   80  man ls
+   81  ls -F
+   82  man ls
+   83  ls -G
+   84  ma ls
+   85  man ls
+   86  ls -m
+   87  man ls
+   88  man ls
+   89  ls -lh
+   90  ls -G
+   91  ls -R
+   /// lots of experimentation with list and flags
+   92  ls
+   93  cd /
+   94  pwd
+   95  /Users/chrisadkinson
+   /// pasted path to home folder
+   96  cd /Users/chrisadkinson
+   97  pwd
+   98  ls
+   99  ls -l
+  100  cd applications
+  /// change directory to another relative path
+  101  ls
+  102  ls -l
+  103  cd /Users/chrisadkinson
+  104  pwd
+  105  ls
+  106  cd a
+  107  cd a
+  108  ls
+  109  cd desktop
+  110  ls
+  111  cd library
+  112  cd /Users/chrisadkinson
+  113  cd library
+  114  ls
+  115  cd /Users/chrisadkinson
+  116  ls
+  117  cd library
+  118  cd fonts
+  119  ls
+  120  cd ebrima.ttf
+  /// couldn't open because it is not a directory
+  121  cd/Users/chrisadkinson
+  122  cd users
+  123  cd library
+  124  cd fonts
+  125  ..
+  126  cd ..
+  /// change directory up one level
+  127  pwd
+  128  cd ..
+  129  pwd
+  130  cd library
+  131  cd desktop
+  132  pwd
+  133  ls
+  134  cd ..
+  135  pwd
+  136  ls
+  137  cd desktop
+  138  cd projects
+  139  pwd
+  140  ls
+  141  cd Client\Projects
+  142  cd Client Projects
+  143  cd Client\ Projects
+  144  ls
+  145  cd Carpet\ Guy\ Repair
+  /// the backslash is a substitute for a space in a filename for Linux. lowercase and do not space
+  146  ls
+  147  pwd
+  148  ls -t
+  149  ls -l
+  150  ls
+  151  ls -m
+  152  ls
+  153  cd ..
+  154  ls
+  155  cd RC
+  156  ls
+  157  cd ..
+  158  ls
+  159  ls -a
+  160  ls
+  161  cd Miscellaneous\ Clients/
+  162  ls
+  163  cd
+  164  pwd
+  165  ls
+  166  cd library
+  167  ls
+  168  cd logs
+  169  ls
+  170  ls ~
+  171  pwd
+  172  ls
+  173  ls ~
+  174  ls /Sync
+  175  ls
+  176  ls /Adobe
+  177  ls -p
+  178  ls /storeagent
+  179  ls .
+  180  ls
+  181  ls ...
+  182  ls ../..
+  /// list the contents of a directory that is up two levels
+  183  ls
+  184  ls ..
+  185  ls
+  186  history
+  187  history 5
+  188  man history
+  /// list a manual of what is possible with flags that go along with the history prompt
+  189  history | less
+  /// opens detailed account of history in 'less'
+  /// pipe character is a powerful thing, took history and input it into less
+  190  cd
+  191  ls
+  192  history > moving_around.txt
+  /// redirection operator in action, CRAZY!!
+  /// sent the contents of the history prompt return and translated it into a filename that is created with the title typed to the left of the (>)
