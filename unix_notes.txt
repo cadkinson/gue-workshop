@@ -194,3 +194,4 @@
   /// .git is where the party is, it is the special sauce
   /// all files preceded with a (.) are hidden files in Linux, you cannot see them unless you specifically ask for them to be shown
   /// when you initialize git in a directory, it then becomes a repository
+  /// do not use git commit -a (DANGEROUS!!!)
